@@ -10,7 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
@@ -88,11 +87,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                       &trans     &trans         &key_repeat  &trans            &trans   &trans
-&trans      &kp INS       &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp PRINTSCREEN                    &kp PG_UP  &kp HOME       &kp UP       &kp END           &kp N0   &trans
-&trans      &kp LALT      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp GLOBE                          &kp PG_DN  &kp LEFT       &kp DOWN     &kp RIGHT         &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT       &kp K_COPY      &kp K_PASTE      &kp K_REDO       &trans    &trans  &trans     &kp LESS_THAN  &trans       &kp GREATER_THAN  &trans   &trans
-                          &trans          &trans          &trans           &trans           &trans    &trans  &trans     &trans         &trans       &trans
+&none   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4                       &trans     &trans         &key_repeat  &trans            &trans   &trans
+&trans  &kp INS       &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp PRINTSCREEN                    &kp PG_UP  &kp HOME       &kp UP       &kp END           &kp N0   &trans
+&trans  &kp LALT      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp GLOBE                          &kp PG_DN  &kp LEFT       &kp DOWN     &kp RIGHT         &kp DEL  &kp BSPC
+&trans  &kp K_UNDO    &kp K_CUT       &kp K_COPY      &kp K_PASTE      &kp K_REDO       &trans    &trans  &trans     &kp LESS_THAN  &trans       &kp GREATER_THAN  &trans   &trans
+                      &trans          &trans          &trans           &trans           &trans    &trans  &trans     &trans         &trans       &trans
             >;
 
             sensor-bindings =
