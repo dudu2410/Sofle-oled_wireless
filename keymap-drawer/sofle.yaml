@@ -137,7 +137,7 @@ layers:
   - ''
   - ''
   - ''
-  - EP TOG
+  - RGB TOG
   - RGB HUD
   - RGB HUI
   - RGB SAD
@@ -149,11 +149,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&studio_unlock'
   - RGB BRD
   - RGB BRI
   - ''
   - ''
+  - EP ON
   - ''
   - ''
   - ''
@@ -165,9 +166,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - RGB TOG
+  - EP OFF
+  - EP TOG
   - ''
   - ''
   - ''
