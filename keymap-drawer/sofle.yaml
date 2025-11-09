@@ -40,11 +40,11 @@ layers:
   - )
   - '|'
   - {t: ▽, type: trans}
-  - '='
+  - +
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - '='
+  - KP MULTIPLY
+  - KP DIVIDE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
